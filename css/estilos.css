@@ -1,0 +1,10 @@
+h1.ejemplo{
+    text-align: center;
+    color: crimson;
+}
+
+div.centro{
+    width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
