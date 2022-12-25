@@ -5,6 +5,10 @@ h1.ejemplo{
 
 div.centro{
     width: 50%;
-    border: 3px solid firebrick;
+    border: 3px solid black;
     margin: auto;
+
+}
+body{
+    background-color: aquamarine;
 }
