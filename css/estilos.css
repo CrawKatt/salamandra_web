@@ -12,3 +12,15 @@ div.centro{
 body{
     background-color: aquamarine;
 }
+
+.salamandra {
+    position: absolute;
+    top: auto;
+    bottom: 920px;
+    left: 1450px;
+    width: 640px;
+    height: 640px;
+}
+.texto {
+    text-align: center;
+}

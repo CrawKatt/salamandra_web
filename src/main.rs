@@ -5,7 +5,7 @@ fn main() {
 }
 
 #[function_component(App)]
-fn app() -> yew::Html {
+fn app_body() -> yew::Html {
     html! {
         html! {
         <main>
@@ -15,7 +15,8 @@ fn app() -> yew::Html {
                 <div class="centro">
                     <h1 class="ejemplo">{ "Bienvenido a Salamandra Devs!" }</h1>
                 </div>
-            <img src="img/css3.png" alt="Logo GM" style="width: 150px; height: 74px;"/>
+            <img src="./img/salamandra.jpeg" class ="salamandra" alt="Logo GM" style="width: 150px; height: 74px;"/>
+            <p class="texto">{ "Salamandra Devs es una comunidad de desarrolladores de software, donde puedes aprender y compartir tus conocimientos." }</p>
         </main>
         }
     }
